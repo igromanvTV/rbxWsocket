@@ -1,7 +1,7 @@
 #ifndef EASYWSCLIENT_HPP_20120819_MIOFVASDTNUASZDQPLFD
 #define EASYWSCLIENT_HPP_20120819_MIOFVASDTNUASZDQPLFD
 
-#define RBXWSOCKET_USE_TLS
+//#define RBXWSOCKET_USE_TLS
 
 // This code comes from:
 // https://github.com/dhbaird/easywsclient
