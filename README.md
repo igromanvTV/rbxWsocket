@@ -21,3 +21,7 @@ This library will help you add websocket support for your module. It is easy to 
 **to use the TLS method.**
 
 and make sure that you have mbedtls installed.
+
+---
+## **Why im share it**
+this lib not working in TLS mode. Acevincente should fix it :)
