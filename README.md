@@ -24,4 +24,4 @@ and make sure that you have mbedtls installed.
 
 ---
 ## **Why im share it**
-this lib not working in TLS mode. Acevincente should fix it :)
+this lib not working in TLS mode (idk why). Acevincente should fix it :)
