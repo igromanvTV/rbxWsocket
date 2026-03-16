@@ -1,6 +1,6 @@
 # rbxWsocket
 
-**Created with love <3: igromanvTV, Acevincente**
+**Created with love <3: igromanvTV**
 
 ---
 ## ⚙️ **Features**
@@ -26,4 +26,4 @@ and make sure that you have mbedtls installed.
 
 ---
 ## **Why im share it**
-this lib not working in TLS mode (idk why). Acevincente should fix it :)
+this lib not working in TLS mode. Just fix it
