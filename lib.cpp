@@ -481,7 +481,6 @@ namespace WebSocket {
 		exploit_websocket* ws = new (lua_newuserdata(ls, sizeof(exploit_websocket))) exploit_websocket();
 
 		ws->th = lua_newthread(ls);
-		RegisterInternalThread(ws->th);
 		ws->threadRef = lua_ref(ls, -1);
 		lua_pop(ls, 1);
 
