@@ -71,7 +71,3 @@ ws:Close()
 - `ws://` uses a custom frame parser (RFC 6455) with masking.
 - All Lua calls from the background thread are protected by a `SpinLock`.
 - Event and thread references are released on close.
-
-## License
-
-MIT
