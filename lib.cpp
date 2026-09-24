@@ -225,7 +225,7 @@ namespace WebSocket {
 		if (secure) {
 			std::wstring hostW(host.begin(), host.end());
 			std::wstring pathW(path.begin(), path.end());
-			hSession = WinHttpOpen(L"ws", WINHTTP_ACCESS_TYPE_NO_PROXY, nullptr, nullptr, 0);
+			hSession = WinHttpOpen(L"ws", WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY, nullptr, nullptr, 0);
 			if (!hSession)
 				return false;
 
