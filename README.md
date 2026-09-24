@@ -61,9 +61,8 @@ ws:Close()
 ## Dependencies
 
 - Windows (WinHTTP, Winsock2)
-- Lua 5.1+ (compatible with Luau)
+- Luau 730+
 - `xorstr_` — for string obfuscation
-- `RegisterInternalThread` — registers Lua threads in the exploit environment
 
 ## Notes
 
